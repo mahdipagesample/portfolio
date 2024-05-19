@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mahdi Mohammadi | portfolio sample</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo2.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Development</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">More skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Motivations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <div class="hero-part-2">
+          <img
+          src="img/developer.png"
+          class="header__img"
+        />
+        </div>
+
+        <div class="hero-part-1">
+          <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          Hi!
+          <br>
+          welcome to 
+          <!-- Green highlight effect -->
+          <span>my</span>
+          <br />
+          <span class="highlight">portfolio</span>
+        </h1>
+        <h4>I am Mahdi, a passionate of computer science, coding and devoloping.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Development</h2>
+        <h3 class="section__header">
+          My knowledge of coding and development.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/html-lazy.jpg"
+          data-src="img/html.jpg"
+          alt="Computer"
+          class="features__img lazy-img zero"
+        />
+        <div class="features__feature one">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">HTML, structuring the web page.</h5>
+          <p>
+            HTML is used to provide structure to a webpage and make it accessible to users of the internet through text, visual formatting and search factors.
+          </p>
+        </div>
+
+        <div class="features__feature two">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">CSS, stylizing to look nice.</h5>
+          <p>
+            CSS (Cascading Style Sheets) is used to style and layout web pages.
+          </p>
+        </div>
+        <img
+          src="img/css-lazy.png"
+          data-src="img/css.png"
+          alt="Plant"
+          class="features__img lazy-img three"
+        />
+
+        <img
+          src="img/js-lazy.jpg"
+          data-src="img/js.jpg"
+          alt="Credit card"
+          class="features__img lazy-img four"
+        />
+        <div class="features__feature five">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">javaScript, making the web page dynamic.</h5>
+          <p>
+            The primary use of JavaScript is to build web-based applications. Some of what JavaScript can do for the web includes: adding interactive behavior to web pages like zooming in and out or playing audio/video etc...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">More skills</h2>
+        <h3 class="section__header">
+          Other computer stuff that i know about, except coding.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Adobe photoshop
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Adobe premiere pro
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Adobe after effects
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <!-- <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg> -->
+            <img src="img/photoshop.png" alt="">
+          </div>
+          <h5 class="operations__header">
+            Digital designs, print designs and photo manipulations.
+          </h5>
+          <p>
+            Adobe Photoshop is a graphics editing application used in all types of professions, including graphic design, photography, and web development. Even regular home users can use Photoshop to make art and adjust photos.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <img src="img/premiere.png" alt="">
+          </div>
+          <h5 class="operations__header">
+            Video editing, production corrections.
+          </h5>
+          <p>
+            Premiere Pro is used by video production firms, news stations, marketing professionals, and design firms. Individuals working in roles such as video editors, production managers, marketing managers and multimedia designers all use Premiere Pro to create and edit video content.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <img src="img/after effects.png" alt="">
+          </div>
+          <h5 class="operations__header">
+            Basic After effects animations, keyframeing and motion graphics.
+          </h5>
+          <p>
+            The primary uses of After Effects are divided into three categories: Animation, Effects, and compositing. The type of animation for which After Effects is mostly used is known as Motion Graphics, which involves creating motion and movement of traditionally static objects such as logos, text, and other graphic elements
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Motivations</h2>
+        <h3 class="section__header">
+          Why choosing this field of computer science.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Having love and motivation in this field</h5>
+            <blockquote class="testimonial__text">
+              One of the ways that I know myself through is how passionate I am to enhance my knoledge and be a professional in the field of computer science.
+              I love it so much and I feel like i am in my best mood while working with computer.
+            </blockquote>
+            <!-- <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address> -->
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Helping people and my country to improve along with this particular knowledge.
+            </h5>
+            <blockquote class="testimonial__text">
+              I am from Afghanistan, and this nation has fallen behind when it comes to technlogy and computer science. I want to help my country and my people by serving through accomplishing projects or teaching this particular knoledge to them.
+            </blockquote>
+            <!-- <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address> -->
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally getting into the job market.
+            </h5>
+            <blockquote class="testimonial__text">
+              And finally, this field has a lot of job opportunities. and one of my goal is to get into the market as a professional.
+            </blockquote>
+            <!-- <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address> -->
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          My mission in my life is not merely to survive, but to thrive.
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Contact</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Development</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">MoreSkills</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Motivations</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact</a>
+        </li>
+      </ul>
+      <img src="img/logo2.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          target="_blank"
+          >Mahdi Mohammadi</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Contact informations of<span class="highlight">ME</span>
+      </h2>
+      <form class="modal__form" style="display: flex; flex-direction: column; align-items: start;">
+        <h3 style="font-size: 20px;">Email Adress: <a href="">mahdi12m2002@gmail.com.</a></h3>
+        <h3 style="font-size: 20px;">Whatsapp: +989964226367.</h3>
+        <button class="btn">Close</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
